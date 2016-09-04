@@ -1,14 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Workspace</title>
+  <title>Thank You!</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="http://maps.googleapis.com/maps/api/js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+  
 <%= yield %>
+  
+<footer id="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+        <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-one">
+          <h3>About</h3>
+          <p class="w3">Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 555 text ever since the 1700s.</p>
+        </section>
+        <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-two">
+          <h3>Links</h3>
+          <p class="w3">Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 555 text ever since the 1700s.</p>
+        </section>
+        <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-three">
+          <h3>Links</h3>
+          <p class="w3">Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 555 text ever since the 1700s.</p>
+        </section>
+        <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-four">
+          <h3>More Links</h3>
+          <p class="w3">Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 555 text ever since the 1700s.</p>
+        </section>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="footer-bottom">
+</div>
 
 </body>
 </html>
