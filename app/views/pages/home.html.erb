@@ -1,12 +1,16 @@
 <header>
-  <a href="#" id="logo">Title<i class="fa fa-font-awesome" aria-hidden="true"></i></a>
+  <%= link_to "Thank You", root_path  %><i class="fa fa-font-awesome"></i>
 </header>
 
 <section id="hero1" class="hero">
   <div class="inner">
     <div class="copy">
-    <h1>Thank You</h1>
-    <p>United States of America, free since 1776</p>
+    <h1>Thank You Brave Nation</h1>
+    <p>The United States of America, est. 1776</p>
+    <p>Pledging liberty and justice for all.</p>
+    <p><button onclick="clickCounter()" type="button" class="clickcount" data-toggle="tooltip" data-placement="right" title="Hooray!">Thank You <i class="fa fa-plus"></i></button></p>
+      <div id="result"></div>
+      <p>You are appreciated...</p>
     </div>
   </div>
 </section>
@@ -14,65 +18,123 @@
 <section id="hero5" class="heros text-center">
   <div class="inner">
     <div class="copy">
-    <h1>Your valiant choices</h1>
+    <h1>Your Valiance</h1>
     <p>Allow millions of people, United and inspired, to achieve marvelous possibility.</p>
-    <p>A salute to you, with gratitude from the home of the brave.</p>
+    <p>Many salutes to you, with gratitude from the home of the brave.</p>
     </div>
   </div>
 </section>
+
+
+<section class="content text-center">
+  <div class="inner">
+    <div class="copy">
+    <h1>“A change is brought about because ordinary people do extraordinary things.”</h1>
+      <p class="h3">― Barack Obama Current President of the United States of America</p>
+    </div>
+  </div>
+</section>
+
 
 <section id="hero2" class="hero">
   <div class="inner">
     <div class="copy">
-    <h1>Fire works show</h1>
-    <p>Blog and thank you notes...</p>
-    <div class="container">
-  <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
-
-  <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Thank you!</h4>
-          <h5>Service men and women, emergency teams, officers, and first responders.</h5>
-          <h5>You are greatly appreciated.</h5>
-        </div>
-        <div class="modal-body">
-          <a href="http://66.media.tumblr.com/7e6e0a86fa1d085a6d63c8077d33f2c9/tumblr_inline_n81ehwzmv61rkg7ly.gif"/>
-          
-            <input type="image" src="http://66.media.tumblr.com/7e6e0a86fa1d085a6d63c8077d33f2c9/tumblr_inline_n81ehwzmv61rkg7ly.gif">
-            <source src="http://66.media.tumblr.com/7e6e0a86fa1d085a6d63c8077d33f2c9/tumblr_inline_n81ehwzmv61rkg7ly.gif" type="video/ogg">
-          </video>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-        </div>
-          
+    <h1>Appreciation motivates hope for our troops, ever reminding them how important they are back home. Send a thank you note or share stories that encourage or might forte wisdom that lasts a lifetime.</h1>
+    <p>“My mission in life is not merely to survive, but to thrive; and to do so with some passion, some compassion, some humor, and some style”</p>
+    <p><strong>― Maya Angelou</strong></p>
+      <div class="container">
+      <!-- Trigger the modal with a button -->
+      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">True-Blue</button>
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Thank you!</h4>
+              <h5>Men and women of the military, emergency teams, fire fighters, officers,</h5>
+              <h5>and first responders. You are greatly appreciated.</h5>
+              <h5>To send a letter or note to soldiers, visit <a href="https://www.operationgratitude.com/writeletters/">operationgratitude.com</a> or <a href="https://www.uso.org/">uso.org</a></h5>
+            </div>
+            <div class="modal-body">
+                <img src="https://s-media-cache-ak0.pinimg.com/236x/73/18/90/731890d4ed5b7c3ba2bc39f1254544aa.jpg">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+          </div>
         </div>
       </div>
-      
     </div>
+  </div>
+</section>
 
-    
-    </div>
+
+<base href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/wanaka-tree.jpg">
+<div id="carousel">
+  <figure id="spinner">
+    <img src="https://s-media-cache-ak0.pinimg.com/236x/0c/b0/0e/0cb00e095378e8c9423c3b9f258d6608.jpg" alt>
+    <img src="still-lake.jpg" alt>
+    <img src="pink-milford-sound.jpg" alt>
+    <img src="paradise.jpg" alt>
+    <img src="https://s-media-cache-ak0.pinimg.com/236x/6e/bc/a1/6ebca16bb8c54485d6b56ac4a71f9c03.jpg" alt>
+    <img src="milky-blue-lagoon.jpg" alt>
+    <img src="lake-tekapo.jpg" alt>
+    <img src="milford-sound.jpg" alt>
+  </figure>
+</div>
+<span style="float:left" class="ss-icon" onclick="galleryspin('-')">&lt;</span>
+<span style="float:right" class="ss-icon" onclick="galleryspin('')">&gt;</span>
+
+<base href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/">
+<div class="flip-3da">
+  <figure>
+    <img src="https://s-media-cache-ak0.pinimg.com/736x/6a/fd/2f/6afd2f2c82b1f7b309ea1c88cf807212.jpg" alt>
+ <figcaption></figcaption>
+</figure>
+</div>
+<div class="flip-3da">
+  <figure>
+    <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ-ClcB793tSNrNMn8_rnWGhNLzlppZ7QogdgM7Kkr9-rdfDfja" alt> 
+    <figcaption></figcaption>
+  </figure>
+</div>
+<div class="flip-3d">
+  <figure>
+    <img src="https://67.media.tumblr.com/77a1beb6f7fe17bacc8733aaffe4f6d3/tumblr_mfrupcpY4L1s0y71do1_500.jpg" alt="north america map ">
+   <figcaption>
+     <strong>Land of the free.</strong>
+     <h5>“Never forget what you are, for surely the world will not. Make it your strength. Then it can never be your weakness. Armour yourself in it, and it will never be used to hurt you.” </h5><br>
+     <p>- George R.R. Martin</p>
+   </figcaption>
+  </figure>
   </div>
-</section>
-  
-<section class="content">
-  <div class="inner">
-    <div class="copy">
-    <h1>An inspiring quote</h1>
-      <p>photo galleries</p>    
-      <p>/-- file not found --/</p>
-    </div>
-  </div>
-</section>
+</div>
+<div class="flip-3d">
+  <figure>
+    <img src="https://s-media-cache-ak0.pinimg.com/736x/6a/fd/2f/6afd2f2c82b1f7b309ea1c88cf807212.jpg" alt="majestic mountains quote">
+ <figcaption>
+    <strong>America and her people, united strong.</strong>
+    <h5>“Do you know what I like about comedy? You can’t laugh and be afraid at the same time—of anything. If you're laughing, I defy you to be afraid.”</h5>
+    <p>- Stephen Colbert</p>
+ </figcaption>
+</figure>
+</div>
+<div class="flip-3d">
+  <figure>
+    <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ-ClcB793tSNrNMn8_rnWGhNLzlppZ7QogdgM7Kkr9-rdfDfja" alt="Patriotic wreath"> 
+    <figcaption>
+      <strong>Home of the brave.</strong>
+      <h5>"People, even more than things, have to be restored, renewed, revived, reclaimed, and redeemed; never throw out anyone."</h5>
+      <p>- Audrey Hepburn</p>
+    </figcaption>
+  </figure>
+</div>
+
+<!--  https://67.media.tumblr.com/77a1beb6f7fe17bacc8733aaffe4f6d3/tumblr_mfrupcpY4L1s0y71do1_500.jpg
+https://www.lovethispic.com/uploaded_images/186120-Land-Of-The-Free-Home-Of-The-Brave.jpg -->
 
 <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>

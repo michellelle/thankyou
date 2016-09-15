@@ -4,33 +4,50 @@
   <title>Thank You!</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script type="text/javascript" src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/wanaka-tree.jpg">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maps.googleapis.com/maps/api/js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <script id="img-wrapper-tmpl" type="text/x-jquery-tmpl">
+  </script>
 </head>
 <body>
   
 <%= yield %>
-  
+
 <footer id="footer">
   <div class="footer-top">
     <div class="container">
       <div class="row">
         <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-one">
           <h3>About</h3>
-          <p class="w3">Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 555 text ever since the 1700s.</p>
+          <p class="w3">A good life, is built by those who have lived contributing those values. United we stand to show Thanks to all brave men and women who protect our freedom, defend our country, and carry an important role in the safety and health of the American peoples.</p>
         </section>
         <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-two">
-          <h3>Links</h3>
-          <p class="w3">Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 555 text ever since the 1700s.</p>
+          <h3><i class="fa fa-twitter" aria-hidden="true"></i> Twitter verse</h3>
+          <p class="w3"><a href="https://twitter.com/hashtag/hero?lang=en" class="link">#hero</a>
+          <a href="https://twitter.com/search?q=%23bravery&src=typd&lang=en" class="link">#bravery</a>
+          <a href="https://twitter.com/search?q=%23usa&src=typd&lang=en" class="link">#USA</a>
+          <a href="https://twitter.com/search?q=%23freedom&src=typd&lang=en" class="link">#freedom</a>
+          <a href="https://twitter.com/search?q=%23unity&src=typd&lang=en" class="link">#unity</a>
+          <a href="https://twitter.com/search?q=%23nature&src=typd&lang=en" class="link">#nature</a>
+          <a href="https://twitter.com/search?q=%23%7Fwelcomehome&src=typd&lang=en" class="link">#welcomehome</a>
+          <a href="https://twitter.com/search?q=%23%7Fworkhard&src=typd&lang=en" class="link">#workhard</a>
+          <a href="https://twitter.com/search?q=%23%7Frelaxing&src=typd&lang=en" class="link">#relaxing</a>
+          <a href="https://twitter.com/hashtag/veterans?src=rela" class="link">#veterans</a>
+          </p>
         </section>
         <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-three">
-          <h3>Links</h3>
-          <p class="w3">Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 555 text ever since the 1700s.</p>
+          <h3>Learn More</h3>
+          <p class="w3"><a href="https://www.uso.org/" class="link2">USO</a> is an organization that connects active duty military and veterans to the many resources available in appreciation to protecting and serving the United States of America. Volunteer, send a letter, donate, or learn more about their organization.</p>
         </section>
         <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-four">
           <h3>More Links</h3>
