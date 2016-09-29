@@ -18,7 +18,7 @@
   text-decoration: underline;
 }
 
-.hero1, .p, .h1 {
+.hero1, .p, .h1, .bold, .h5 {
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -135,6 +135,8 @@ div.flip-3d figure {
   transition: 1s transform;
   font-size: 1.6rem;
 }
+
+/* 1.6rem*/
 
 div.flip-3d figure img {
   width: 100%;
